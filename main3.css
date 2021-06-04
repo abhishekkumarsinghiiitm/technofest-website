@@ -1,0 +1,59 @@
+body{
+	overflow-x:hidden;
+	font-family: 'Lato',sans-serif;
+	color: #505962; 
+}
+/*----navigation----*/
+.navbar{
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: .9rem;
+	letter-spacing: .1rem;
+	background: rgba(0,0,0,0.6)!important;
+}
+.navbar-brand img{
+	height:4rem;
+}
+.navbar-nav li{
+	padding-right: .7rem;
+}
+.navbar-dark .navbar-nav .nav-link{
+	color: white;
+	padding-top: .8rem;
+}
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link:hover{
+	color: #1ebba3;
+}
+.home-inner{
+background-image: url(img/a2.jpg);
+z-index: -1;
+}
+.caption{
+	width: 100%;
+	max-width: 100%;
+	position: absolute;
+	top: 38%;
+	z-index:1;
+	color: white;
+
+}
+.caption h1{
+font-size: 4rem;
+font-weight: 700;
+letter-spacing: .3rem;
+text-shadow: 1rem 1rem .8rem black;
+padding-bottom: 1.6rem;
+}
+.caption h3{
+	font-size: 2rem;
+	text-shadow: .1 .1 .5 black;
+	padding-bottom: 1.6rem;
+}
+.fixed{
+	background-image: url(img/b1.jpg);
+	z-index: -1;
+}
+.dark{
+	background-color: rgba(0,0,0,0.75);
+}
